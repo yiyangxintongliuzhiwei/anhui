@@ -1,0 +1,69 @@
+.a1-v12 {
+  width: 470px;
+  height: 340px;
+  position: absolute;
+  background: url('../../assets/img/v12/v12_bg.png');
+  left: 42px;
+  top: 393px;
+  .title {
+    width: 160px;
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 24px;
+    color: #c2d8ff;
+    font-family: 'ChaoHei';
+    letter-spacing: 6px;
+    padding-left: 53px;
+    background: url('../../assets/img/v12/v12_1.png') 16px center no-repeat;
+    position: absolute;
+    left: 23px;
+    top: 23px;
+  }
+  .a1-v12-legend1 {
+    width: 85px;
+    height: 16px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #d6e5ff;
+    background: url('../../assets/img/v12/legend_1.png') 0 center no-repeat;
+    position: absolute;
+    left: 207px;
+    top: 40px;
+  }
+  .a1-v12-legend2 {
+    width: 85px;
+    height: 16px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #d6e5ff;
+    background: url('../../assets/img/v12/legend_2.png') 0 center no-repeat;
+    position: absolute;
+    left: 290px;
+    top: 40px;
+  }
+  .a1-v12-legend3 {
+    width: 85px;
+    height: 16px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #d6e5ff;
+    background: url('../../assets/img/v12/legend_3.png') 0 center no-repeat;
+    position: absolute;
+    left: 375px;
+    top: 40px;
+  }
+  #a1-v12-charts1 {
+    width: 470px;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+  }
+}

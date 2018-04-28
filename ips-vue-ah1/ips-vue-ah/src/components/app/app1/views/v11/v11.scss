@@ -1,0 +1,207 @@
+.a1-v11 {
+  width: 470px;
+  height: 340px;
+  background: url('../../assets/img/v11/v11_bg.png');
+  position: absolute;
+  left: 42px;
+  top: 42px;
+  .title {
+    width: 160px;
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 24px;
+    color: #c2d8ff;
+    font-family: 'ChaoHei';
+    letter-spacing: 6px;
+    padding-left: 53px;
+    background: url('../../assets/img/v11/v11_1.png') 16px center no-repeat;
+    position: absolute;
+    left: 23px;
+    top: 22px;
+  }
+  .a1-v11-swiper {
+    width: 470px;
+    height: 340px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .a1-v11-swiper-slide {
+      .a1-v11-charts1-legend1 {
+        width: 105px;
+        height: 16px;
+        line-height: 16px;
+        box-sizing: border-box;
+        padding-left: 18px;
+        font-size: 14px;
+        color: #d6e5ff;
+        background: url('../../assets/img/v11/legend_1.png') 0 center no-repeat;
+        position: absolute;
+        left: 247px;
+        top: 43px;
+      }
+      .a1-v11-charts1-legend2 {
+        width: 105px;
+        height: 16px;
+        line-height: 16px;
+        box-sizing: border-box;
+        padding-left: 18px;
+        font-size: 14px;
+        color: #d6e5ff;
+        background: url('../../assets/img/v11/legend_2.png') 0 center no-repeat;
+        position: absolute;
+        left: 350px;
+        top: 43px;
+      }
+      .a1-v11-charts2-legend1 {
+        width: 105px;
+        height: 16px;
+        line-height: 16px;
+        box-sizing: border-box;
+        padding-left: 18px;
+        font-size: 14px;
+        color: #d6e5ff;
+        background: url('../../assets/img/v11/legend_1.png') 0 center no-repeat;
+        position: absolute;
+        left: 247px;
+        top: 22px;
+      }
+      .a1-v11-charts2-legend2 {
+        width: 105px;
+        height: 16px;
+        line-height: 16px;
+        box-sizing: border-box;
+        padding-left: 18px;
+        font-size: 14px;
+        color: #d6e5ff;
+        background: url('../../assets/img/v11/legend_2.png') 0 center no-repeat;
+        position: absolute;
+        left: 350px;
+        top: 22px;
+      }
+      .a1-v11-charts2-legend3 {
+        width: 105px;
+        height: 16px;
+        line-height: 16px;
+        box-sizing: border-box;
+        padding-left: 18px;
+        font-size: 14px;
+        color: #d6e5ff;
+        background: url('../../assets/img/v11/legend_3.png') 0 center no-repeat;
+        position: absolute;
+        left: 247px;
+        top: 43px;
+      }
+      #a1-v11-charts1 {
+        width: 470px;
+        height: 280px;
+        position: absolute;
+        left: 0;
+        top: 55px;
+      }
+      .index-name {
+        width: 55px;
+        height: 75px;
+        background: url('../../assets/img/v11/v11_2.png') center top no-repeat;
+        box-sizing: border-box;
+        padding-top: 12px;
+        position: absolute;
+        left: 287px;
+        top: 82px;
+        z-index: 999;
+        .index-name-num {
+          width: 100%;
+          height: 18px;
+          line-height: 18px;
+        }
+        .index-name-num-unit {
+          width: 100%;
+          height: 18px;
+          line-height: 18px;
+          font-size: 14px;
+          color: #fff;
+          text-align: center;
+        }
+        .name {
+          width: 100%;
+          height: 15px;
+          line-height: 15px;
+          font-size: 12px;
+          color: #e0ecff;
+          text-align: center;
+          margin-top: 8px;
+        }
+      }
+      .index-name-second {
+        background: url('../../assets/img/v11/v11_3.png') center top no-repeat;
+        left: 372px;
+        top: 82px;
+      }
+      .svg-clip {
+        position: absolute;
+        left: 290px;
+        top: 85px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+        .svg1{
+          position: absolute;
+          left: -15px;
+          top: 0;
+          width: 80px;
+          transition: top 1s; 
+          .cls-1 {
+            fill: #0af;
+            stroke: #0af;
+            stroke-linecap: round;
+            stroke-width: 6px;
+            fill-rule: evenodd;
+            opacity: 0.2;
+          }
+        }
+      }
+      .svg-clip-second {
+        left: 375px;
+        .svg1 {
+          .cls-1 {
+            fill: #fe7733;
+            stroke: #fe7733;
+            opacity: 0.2;
+          }
+        }
+      }
+      #a1-v11-charts2 {
+        width: 470px;
+        height: 280px;
+        position: absolute;
+        left: 0;
+        top: 55px;
+      }
+    }
+  }
+  .a1-v11-swiper-roam {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    left: 172px;
+    z-index: 1;
+    .swiper-pagination-bullet {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      transform: rotate(45deg);
+      opacity: 0.4;
+      border-radius: 0px;
+      margin: 0px 9px;
+      background: #ff7733;
+    }
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,180 @@
+.a2-v11 {
+  width: 470px;
+  height: 340px;
+  position: absolute;
+  left: 42px;
+  top: 42px;
+  .a2-v11-swiper {
+    width: 470px;
+    height: 340px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .a2-v11-swiper-slide {
+      .title {
+        width: 160px;
+        height: 32px;
+        box-sizing: border-box;
+        line-height: 32px;
+        font-size: 24px;
+        color: #c2d8ff;
+        font-family: 'ChaoHei';
+        letter-spacing: 6px;
+        padding-left: 53px;
+        background: url('../../assets/img/v11/v11_1.png') 16px center no-repeat;
+        position: absolute;
+        left: 23px;
+        top: 22px;
+      }
+      .word {
+        width: 100%;
+        padding-right: 32px;
+        height: 16px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        left: 0;
+        top: 61px;
+        .word1 {
+          width: 123px;
+          height: 16px;
+          line-height: 16px;
+          font-size: 16px;
+          font-family: 'Microsoft Yahei';
+          color: #c2d8ff;
+          text-align: center;
+          margin-right: 10px;
+        }
+        .word2 {
+          width: 123px;
+          height: 16px;
+          line-height: 16px;
+          font-size: 16px;
+          font-family: 'Microsoft Yahei';
+          color: #c2d8ff;
+          text-align: center;
+        }
+      }
+      .list {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 83px;
+        padding-left: 25px;
+        .list-1 {
+          width: 422px;
+          height: 42px;
+          background: url('../../assets/img/v11/v11_2.png');
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: flex-start;
+          .name {
+            width: 145px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Microsoft Yahei';
+            color: #e0eeff;
+            margin-right: 15px;
+          }
+          .yesterday {
+            width: 123px;
+            height: 42px;
+            line-height: 42px;
+            margin-right: 10px;
+          }
+          .today {
+            width: 123px;
+            height: 42px;
+            line-height: 42px;
+          }
+        }
+      }
+    }
+    .a2-v11-swiper-slide:nth-of-type(1) {
+      #a2-v11-charts1 {
+        width: 165px;
+        height: 200px;
+        position: absolute;
+        left: 54px;
+        top: 189px;
+      }
+      .a2-v11-charts1-word {
+        width: 165px;
+        height: 50px;
+        position: absolute;
+        left: 54px;
+        top: 258px;
+        .num {
+          width: 100%;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 3px;
+        }
+        .index-name {
+          width: 100%;
+          height: 18px;
+          line-height: 18px;
+          text-align: center;
+          font-family: 'Microsoft Yahei';
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+      #a2-v11-charts2 {
+        width: 165px;
+        height: 200px;
+        position: absolute;
+        left: 255px;
+        top: 189px;
+      }
+      .a2-v11-charts2-word {
+        width: 165px;
+        height: 50px;
+        position: absolute;
+        left: 255px;
+        top: 258px;
+        .num {
+          width: 100%;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 3px;
+        }
+        .index-name {
+          width: 100%;
+          height: 18px;
+          line-height: 18px;
+          text-align: center;
+          font-family: 'Microsoft Yahei';
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .a2-v11-swiper-roam {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    left: 172px;
+    z-index: 1;
+    .swiper-pagination-bullet {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      transform: rotate(45deg);
+      opacity: 0.4;
+      border-radius: 0px;
+      margin: 0px 9px;
+      background: #ff7733;
+    }
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+    }
+  }
+}

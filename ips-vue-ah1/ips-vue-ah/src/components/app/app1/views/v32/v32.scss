@@ -1,0 +1,124 @@
+.a1-v32 {
+  width: 470px;
+  height: 340px;
+  position: absolute;
+  right: 42px;
+  top: 393px;
+  background: url('../../assets/img/v32/bg1.png') 76px 80px no-repeat;
+  .title {
+    width: 295px;
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 24px;
+    color: #c2d8ff;
+    font-family: 'ChaoHei';
+    letter-spacing: 2px;
+    padding-left: 47px;
+    background: url('../../assets/img/v32/v32_2.png') 15px center no-repeat;
+    position: absolute;
+    left: 23px;
+    top: 23px;
+  }
+  .word1 {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+    position: absolute;
+    left: 165px;
+    top: 83px;
+  }
+  .word2 {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+    position: absolute;
+    left: 247px;
+    top: 277px;
+  }
+  .index-num-l {
+    width: 135px;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 12px;
+    top: 90px;
+    .name {
+      width: 66px;
+      height: 65px;
+      line-height: 25px;
+      padding-top: 10px;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'Microsoft Yahei';
+    }
+    .num {
+      width: 70px;
+      height: 32px;
+      line-height: 32px;
+      padding-top: 8px;
+    }
+    .unit {
+      line-height: 10px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'Microsoft Yahei';
+    }
+  }
+  .index-num-l2 {
+    top: 160px;
+  }
+  .index-num-l3 {
+    top: 239px;
+  }
+  .index-num-r {
+    width: 135px;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    right: -8px;
+    top: 90px;
+    .name {
+      width: 50px;
+      height: 65px;
+      line-height: 25px;
+      padding-top: 10px;
+      text-align: right;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'Microsoft Yahei';
+    }
+    .num {
+      width: 70px;
+      height: 32px;
+      line-height: 32px;
+      padding-top: 8px;
+    }
+    .unit {
+      line-height: 10px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'Microsoft Yahei';
+    }
+  }
+  .index-num-r2 {
+    top: 160px;
+  }
+  .index-num-r3 {
+    top: 239px;
+  }
+}

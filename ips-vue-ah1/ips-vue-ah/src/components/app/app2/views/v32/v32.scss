@@ -1,0 +1,317 @@
+.a1-v32 {
+  width: 470px;
+  height: 340px;
+  position: absolute;
+  right: 42px;
+  top: 393px;
+  .a2-v32-swiper {
+    width: 100%;
+    height: 100%;
+    .a2-v32-swiper-slide {
+      width: 100%;
+      height: 100%;
+    }
+    .a2-v32-swiper-slide:nth-of-type(1) {
+      background: url('../../assets/img/v32/bg1.png') 76px 80px no-repeat;
+      .title {
+        width: 295px;
+        height: 32px;
+        box-sizing: border-box;
+        line-height: 32px;
+        font-size: 24px;
+        color: #c2d8ff;
+        font-family: 'ChaoHei';
+        letter-spacing: 2px;
+        padding-left: 47px;
+        background: url('../../assets/img/v32/v32_2.png') 15px center no-repeat;
+        position: absolute;
+        left: 23px;
+        top: 23px;
+      }
+      .word1 {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Microsoft Yahei';
+        color: #fff;
+        position: absolute;
+        left: 165px;
+        top: 83px;
+      }
+      .word2 {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Microsoft Yahei';
+        color: #fff;
+        position: absolute;
+        left: 247px;
+        top: 277px;
+      }
+      .index-num-l {
+        width: 135px;
+        height: 65px;
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        left: 12px;
+        top: 90px;
+        .name {
+          width: 66px;
+          height: 65px;
+          line-height: 25px;
+          padding-top: 10px;
+          font-size: 16px;
+          color: #fff;
+          font-family: 'Microsoft Yahei';
+        }
+        .num {
+          width: 70px;
+          height: 32px;
+          line-height: 32px;
+          padding-top: 8px;
+        }
+        .unit {
+          line-height: 10px;
+          text-align: center;
+          font-size: 16px;
+          color: #fff;
+          font-family: 'Microsoft Yahei';
+        }
+      }
+      .index-num-l2 {
+        top: 160px;
+      }
+      .index-num-l3 {
+        top: 239px;
+      }
+      .index-num-r {
+        width: 135px;
+        height: 65px;
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        right: -8px;
+        top: 90px;
+        .name {
+          width: 50px;
+          height: 65px;
+          line-height: 25px;
+          padding-top: 10px;
+          text-align: right;
+          font-size: 16px;
+          color: #fff;
+          font-family: 'Microsoft Yahei';
+        }
+        .num {
+          width: 70px;
+          height: 32px;
+          line-height: 32px;
+          padding-top: 8px;
+        }
+        .unit {
+          line-height: 10px;
+          text-align: center;
+          font-size: 16px;
+          color: #fff;
+          font-family: 'Microsoft Yahei';
+        }
+      }
+      .index-num-r2 {
+        top: 160px;
+      }
+      .index-num-r3 {
+        top: 239px;
+      }
+    }
+    .a2-v32-swiper-slide:nth-of-type(2) {
+      background: url('../../assets/img/v32/bg2.png') no-repeat;
+      .title {
+        width: 295px;
+        height: 32px;
+        box-sizing: border-box;
+        line-height: 32px;
+        font-size: 24px;
+        color: #c2d8ff;
+        font-family: 'ChaoHei';
+        letter-spacing: 2px;
+        padding-left: 47px;
+        background: url('../../assets/img/v32/v32_3.png') 15px center no-repeat;
+        position: absolute;
+        left: 23px;
+        top: 23px;
+      }
+      .title-name {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-family: 'Microsoft Yahei';
+        font-size: 16px;
+        color: #c2d8ff;
+        letter-spacing: 3px;
+        > .name:nth-of-type(1) {
+          width: 85px;
+          margin-left: 85px;
+        }
+        > .name:nth-of-type(2) {
+          width: 100px;
+        }
+        > .name:nth-of-type(3) {
+          width: 95px;
+        }
+        > .name:nth-of-type(4) {
+          width: 100px;
+        }
+      }
+      .list {
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        left: 0;
+        top: 120px;
+        display: flex;
+        justify-content: flex-start;
+        .name {
+          width: 55px;
+          height: 55px;
+          line-height: 55px;
+          text-align: center;
+          margin-left: 22px;
+          font-family: 'Microsoft Yahei';
+          font-size: 18px;
+          color: #c2d8ff;
+          font-weight: bold;
+        }
+        .num {
+          .number {
+            height: 25px;
+            line-height: 25px;
+          }
+          .unit {
+            font-family: 'Microsoft Yahei';
+            font-size: 14px;
+            color: #00d5ff;
+            text-align: center
+          }
+        }
+        .num1 {
+          width: 85px;
+          margin-left: 10px;
+        }
+        .num2 {
+          width: 100px;
+        }
+        .num3 {
+          width: 95px;
+        }
+        .num4 {
+          width: 100px;
+        }
+      }
+      .title-name-2 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 180px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-family: 'Microsoft Yahei';
+        font-size: 16px;
+        color: #c2d8ff;
+        letter-spacing: 3px;
+        > .name:nth-of-type(1) {
+          width: 95px;
+          margin-left: 268px;
+        }
+        > .name:nth-of-type(2) {
+          width: 100px;
+        }
+      }
+      .list-2, .list-3 {
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        top: 230px;
+        display: flex;
+        justify-content: flex-start;
+        .name {
+          width: 55px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          margin-left: 22px;
+          font-family: 'Microsoft Yahei';
+          font-size: 18px;
+          color: #c2d8ff;
+          font-weight: bold;
+        }
+        .num {
+          .number {
+            height: 25px;
+            line-height: 25px;
+          }
+          .unit {
+            font-family: 'Microsoft Yahei';
+            font-size: 14px;
+            color: #00d5ff;
+            text-align: center
+          }
+        }
+        .num1 {
+          width: 85px;
+          margin-left: 10px;
+        }
+        .num2 {
+          width: 100px;
+        }
+        .num3 {
+          width: 95px;
+        }
+        .num4 {
+          width: 100px;
+        }
+      }
+      .list-3 {
+        top: 280px;
+      }
+    }
+  }
+  .a2-v32-swiper-roam {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    left: 310px;
+    z-index: 1;
+    .swiper-pagination-bullet {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      transform: rotate(45deg);
+      opacity: 0.4;
+      border-radius: 0px;
+      margin: 0px 9px;
+      background: #ff7733;
+    }
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+    }
+  }
+}
